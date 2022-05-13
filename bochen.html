@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      div {width: 120px; margin: auto; display: flex; justify-content: space-between;}
+    </style>
+    <title>HALO KRISTY &#129505</title>
+  </head>
+  <body style="text-align: center">
+    <img src="https://media3.giphy.com/media/vFKqnCdLPNOKc/200.webp?cid=ecf05e47oz5pa936yie94iias96e7neo64sg16d9gh4kcmhq&rid=200.webp&ct=g" alt="NaisID" style="height: 280px" />
+    <h1>Kita kan Udah Kenal Lama Yaaaa</h1>
+    <h2>Aku Mau Sekarang Kita Pacaran</h2>
+    <div>
+      <button onclick="mau()">IYAA MAU</button>
+      <button onmouseover="gak(this)">GAK!</button>
+    </div>
+    <script>
+      function mau() {
+        alert("YEAYY AKHIRNYA KITA PACARAN :)");
+        alert("MAKASIH BANYAK LOVE YOU HEHE");
+        alert("AKU SENENG BANGET PAKE BANGET");
+        alert("JADI MAU PEYUK HEHEHE");
+
+      }
+      function gak(ini) {
+        ini.style.position = "absolute";
+        ini.style.left = `${Math.floor(Math.random() * 90)}%`;
+        ini.style.top = `${Math.floor(Math.random() * 90)}%`;
+      }
+    </script>
+  </body>
+</html>
